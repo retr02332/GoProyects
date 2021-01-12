@@ -1,3 +1,0 @@
-format => %+v (clave y valor para estructuras)
-Operador ... (ellipsis)
-arrays y slices
