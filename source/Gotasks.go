@@ -16,7 +16,7 @@ func (tasks *taskList) appendTask(t *task) {
 }
 
 func (tasks *taskList) popTask(index int) {
-	tasks.list = append(tasks.list[:index], tasks.list[index+1:]...)
+	tasks.list = append(tasks.list[:index], tasks.list[index+1:]...) // Operador ellipsis ...
 }
 
 func (tasks *taskList) modify(t *task) {
